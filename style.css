@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+:root{
+    --backgroundcolor-default: #FFFFFF;
+    --border-default: 2px solid #000000;
+    --font-default: "Bangers", system-ui;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header{
+    width: 97.8%;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.header-wrapper{
+    font-family: var(--font-default);
+    background-color: var(--background-color-padrao);
+    border: var(--border-default);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header-titulo{
+    font-size: 2rem;
+    letter-spacing: 0.7rem;
+}
+
+.header-span{
+    letter-spacing: 1rem;
+    font-size: 4rem;
+}
+
+
+/* MAIN */
+
+
+main{
+    width: 97.8%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+
+    font-family: var(--font-default);
+    background-color: var(--background-color-padrao);
+    border: var(--border-default);
+    width: 97.8%;
+    height: 28rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.card-wrapper{
+    width: 7rem;
+    height: 7rem;
+    background-color: darkslategrey;
+
+    border: 2px solid black; 
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-wrapper:hover{
+    width: 14rem;
+    height: 14rem;
+}
+
+.card-text{
+    position: absolute;
+    width: 100%;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+footer{
+    width: 97.8%;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+.carousel-wrapper{
+    font-family: var(--font-default);
+    background-color: var(--background-color-padrao);
+    border: var(--border-default);
+
+    width: 72rem;
+}
+
+.carousel-icons{
+    width: 10rem;
+    height: 5rem;
+}
+
+.contacts-wrapper{
+    font-family: var(--font-default);
+    background-color: var(--background-color-padrao);
+    border: var(--border-default);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20rem;
+}
+
+.img-contacts{
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
