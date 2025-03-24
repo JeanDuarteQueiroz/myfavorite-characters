@@ -54,10 +54,11 @@ main{
 
 .main-wrapper{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1.5rem;
 
-
+    line-height: 0%;
     font-family: var(--font-default);
     background-color: var(--background-color-padrao);
     border: var(--border-default);
@@ -67,12 +68,12 @@ main{
 }
 
 .card-wrapper{
-    width: 7rem;
-    height: 7rem;
+    width: 8.5rem;
+    height: 8.5rem;
     background-color: darkslategrey;
-
     border: 2px solid black; 
     border-radius: 1rem;
+    align-items: center;
     transition: all 0.3s ease;
 }
 
@@ -85,8 +86,8 @@ main{
 }
 
 .card-wrapper:hover{
-    width: 14rem;
-    height: 14rem;
+    width: 17rem;
+    height: 12rem;
 }
 
 .card-text{
