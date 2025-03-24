@@ -70,32 +70,24 @@ main{
 .card-wrapper{
     width: 8.5rem;
     height: 8.5rem;
-    background-color: darkslategrey;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0.8rem;
     border: 2px solid black; 
-    border-radius: 1rem;
-    align-items: center;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-out;
 }
 
 .card-img{
     width: 100%;
     height: 100%;
-    border-radius: 1rem;
     object-fit: cover;
     transition: transform 0.3s ease;
 }
 
 .card-wrapper:hover{
-    width: 17rem;
+    width: 12rem;
     height: 12rem;
 }
-
-.card-text{
-    position: absolute;
-    width: 100%;
-}
-
-
 
 
 
